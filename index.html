@@ -1,78 +1,72 @@
 <!DOCTYPE html>
-<html>	
+<html>
 <head>
-<title></title>
+<title>pop up</title>	
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 </head>
-<body>	
-<div class="main_container">	
-<div class="Nav-bar">
-<div class="sub">
-<ul class="Dropdown">
-<li><a href="#">Options <i class="fa-solid fa-angle-down"></a></i>
-<ul class="hover-1">
-<li><a href="#">signed in as<span> tom@example.com</span></a></li>	
-<li><a href="#">Account settings</a></li>	
-<li><a href="#">Support</a></li>	
-<li><a href="#">License</a></li>	
-<li><a href="#">sign out</a></li>	
-</ul>	
-</li>	
-<li><a href="#">Options <i class="fa-solid fa-angle-down"></i></a>
-<ul class="hover-2">
-<li><a href="#"><i class="fa-sharp fa-solid fa-pen-to-square"></i> Edit</a></li>	
-<li><a href="#"><i class="fa-sharp fa-regular fa-copy"></i> Duplicate</a></li>	
-<li><a href="#"><i class="fa-solid fa-box-archive"></i> Archive</a></li>	
-<li><a href="#"><i class="fa-solid fa-circle-arrow-right"></i> Move</a></li>	
-<li><a href="#"><i class="fa-solid fa-user-plus"></i> Share</a></li>	
-<li><a href="#"><i class="fa-solid fa-heart"></i> Add to favorites</a></li>	
-<li><a href="#"><i class="fa-solid fa-trash-can"></i> Delete</a></li>	
-</ul>
-</li>	
-<li><a href="#">Options <i class="fa-solid fa-angle-down"></i></a>
-<ul class="hover-3">
-<li><a href="#">Edit</a></li>	
-<li><a href="#">Duplicate</a></li>	
-<li><a href="#">Archive</a></li>	
-<li><a href="#">Move</a></li>	
-<li><a href="#">Share</a></li>	
-<li><a href="#">Add to favorites</a></li>	
-<li><a href="#">Delete</a></li>	
-</ul>	
-</li>	
-<li><a href="#">Options <i class="fa-solid fa-angle-down"></i></a>
-<ul class="hover-4">
-<li><a href="#">Account settings</a></li>	
-<li><a href="#">Support</a></li>	
-<li><a href="#">License</a></li>	
-<li><a href="#">Sign out</a></li>	
-</ul>	
-</li>
-<li id="menu"><a href="#" id="menu" ><i class="fa-solid fa-ellipsis-vertical"></i></a>
-<ul class="hover-5">
-<li><a href="#">Account settings</a></li>	
-<li><a href="#">Support</a></li>	
-<li><a href="#">License</a></li>	
-<li><a href="#">Sign out</a></li>	
-</ul>	
-<li>
-</ul>
-</div>
+<body>
+<div class="main_container">
+<div class="sub_container">
+<div class="close">
+<img src="images/close.png" alt="close">
 </div>	
-<div class="image_container">
-<div class="content">	
-<h1>Get notified when we're launching.</h1>	
-<p>Lorem Ipsum has been the industry's standard   reader is that dummy of the text ever since the 1500s</p>
-<div class="input">
-	<input type="email" id="email" placeholder="Enter your email"><button>Notify me</button>
-</div>
+<div class="top">
+<p>Good to see you!</p>
+<p>if you accepted all cookies login with...</p>
 </div>	
+<div class="links">
+<img src="images/google-plus.png" alt="google">
+<img src="images/facebook.png" alt="fb">
+<img src="images/twitter.png" alt="twitter">
+</div>
+<div class="line"></div>
+<div class="content">
+<span>Otherwise login by email.</span>	
+</div>
+<div class="login">
+<form>
+<label for="email">Email</label>
+<sup>	
+<i class="fa-sharp fa-solid fa-star-of-life"></i>
+</sup>
+<input type="text" id="email" placeholder="Enter your email address">
+<label for="password">Password</label>
+<sup>	
+<i class="fa-sharp fa-solid fa-star-of-life"></i>
+</sup>
+<div class="eye">
+<input type="password" id="password" placeholder="Enter your Password">
+<i class="fa-sharp fa-solid fa-eye fa-xl"></i>
+</div>
+</form>	
+<div class="forgot-Password">
+<a href="#">I forgot my password</a>	
+</div>
+<div class="span">
+<span>This reCAPTCHA Is for	testing purposes only.please report to the site admin if you are seeing this</p>
+<div class="recaptcha">
+<div class="part-1">
+<input type="checkbox" id="robot">	
+<label>I'm not a robot</label>
+</div>
+<div class="part-2">
+<img src="images/recaptcha.png" alt="img">	
+<p>Privacy . Terms</p>
 </div>	
 </div>
+</div>	
+<div class="button">
+<a href="#">Log me in</a>
 </div>
-</body>	
+<div class="register">
+<span>Don't have an account yet?</span>
+<a href="#">Register here</a>
+</div>
+</div>
+</div>	
+</body>
 </html>
